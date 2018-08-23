@@ -44,7 +44,7 @@
       "zigbee": {
         "manufacturerName": [ "GLEDOPTO" ],
         "productId": [ "GLEDOPTO" ],
-        "deviceId": 528,
+        "deviceId": [528,256],
         "profileId": 49246,
         "learnmode": {
           "instruction": {
