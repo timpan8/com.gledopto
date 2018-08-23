@@ -31,12 +31,27 @@
       "class": "light",
       "capabilities": [
         "onoff",
+		"onoff.1",
         "dim",
         "light_hue",
         "light_saturation",
-        "light_temperature",
-        "light_mode"
+        "light_temperature"
       ],
+	   "capabilitiesOptions": { 
+          "onoff": { 
+            "title": { 
+              "en": "RGB" 
+            }, 
+            "greyout": false 
+          }, 
+          "onoff.1": { 
+            "title": { 
+              "en": "WHITE" 
+            }, 
+            "greyout": false 
+          }
+		 },
+
       "images": {
         "large": "/drivers/gledopto_rgb/assets/images/large.jpg",
         "small": "/drivers/gledopto_rgb/assets/images/small.jpg"
