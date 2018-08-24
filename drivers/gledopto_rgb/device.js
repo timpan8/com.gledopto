@@ -1,9 +1,9 @@
 'use strict';
 
 const Homey = require('homey');
-const ZigBeeLightDevice = require('homey-meshdriver').ZigBeeLightDevice;
+const ZigBeeXYLightDevice = require('homey-meshdriver').ZigBeeXYLightDevice;
 
-class GledoptoRGB extends ZigBeeLightDevice {
+class GledoptoRGB extends ZigBeeXYLightDevice {
 	onMeshInit() {
 	this.printNode();
 	this.enableDebug();

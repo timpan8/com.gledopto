@@ -1,6 +1,6 @@
 {
   "id": "com.gledopto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "sdk": 2,
   "compatibility": ">=1.5.11",
   "category": "lights",
