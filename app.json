@@ -22,21 +22,22 @@
   },
   "speech": [],
   "drivers": [
-    {
-      "id": "gledopto_rgb",
-      "name": {
-        "en": "Gledopto RGB Controller",
-        "nl": "Gledopto RGB Controller"
-      },
-      "class": "light",
-      "capabilities": [
-        "onoff",
-		"onoff.1",
-        "dim",
-        "light_hue",
-        "light_saturation",
-        "light_temperature"
-      ],
+	{
+     "id": "gledopto_rgb",
+     "name": {
+       "en": "Gledopto Controller",
+       "nl": "Gledopto Controller"
+     },
+     "class": "light",
+     "capabilities": [
+       "onoff",
+	   "onoff.1",
+       "dim",
+       "light_hue",
+       "light_saturation",
+       "light_temperature",
+       "light_mode"
+	     ],
 	   "capabilitiesOptions": { 
           "onoff": { 
             "title": { 
