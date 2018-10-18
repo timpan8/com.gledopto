@@ -10,7 +10,6 @@ class GledoptoRGB extends ZigBeeXYLightDevice {
 	this.registerCapability('onoff', 'genOnOff', { endpoint: 0 });
 	this.registerCapability('onoff.1', 'genOnOff', { endpoint: 1 });
 	this.registerCapability('dim', 'genLevelCtrl', { endpoint: 0 });
-	this.registerCapability('dim.1', 'genLevelCtrl', { endpoint: 1 });
 	this.registerCapability('light_hue', 'lightingColorCtrl', { endpoint: 1 });
 	this.registerCapability('light_saturation', 'lightingColorCtrl', { endpoint: 1 });
 	this.registerCapability('light_temperature', 'lightingColorCtrl', { endpoint: 1 });
