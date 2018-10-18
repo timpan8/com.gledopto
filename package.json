@@ -1,7 +1,7 @@
 {
   "name": "com.gledopto",
   "version": "1.0.0",
-  "description": "Control your Gledopto RGB Controller (ZigBee) devices with Homey!",
+  "description": "Control your Gledopto LED Controllers (ZigBee) devices with Homey!",
   "main": "app.js",
   "dependencies": {
     "homey-log": "git+https://github.com/athombv/node-homey-log.git",
