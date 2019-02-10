@@ -5,7 +5,7 @@ Control your Gledopto and Tint devices with Homey using ZigBee!
 ### Changelog   
 
 1.1.1  
-Added support for [[Tint-lights](https://www.mueller-licht.de/produktserien/tint/]) (color-bulbs and white-tint bulbs) with E27, E14 and GU10 sockets 
+Added support for [Tint-lights](https://www.mueller-licht.de/produktserien/tint/]) (color-bulbs and white-tint bulbs) with E27, E14 and GU10 sockets   
 *sold by Aldi and Action among others*
 
 1.0.2 
