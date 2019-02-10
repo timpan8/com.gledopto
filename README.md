@@ -4,6 +4,9 @@ Control your Gledopto devices with Homey using ZigBee!
    
 ### Changelog   
 
+1.1.0
+Added support for Tint-lights (rebranded devices) except for warm-white settings
+
 1.0.2 
 Added support for WW+CW LED Controllers (https://bit.ly/2PB3oA1)
 

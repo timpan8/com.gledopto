@@ -1,13 +1,13 @@
 {
   "id": "com.gledopto",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "sdk": 2,
   "compatibility": ">=1.5.11",
   "category": "lights",
   "brandColor": "#ff66cc",
   "name": {
-    "en": "Gledopto LED Controllers (ZigBee)",
-    "nl": "Gledopto LED Controllers (ZigBee)"
+    "en": "Gledopto and Tint LED Controllers (ZigBee)",
+    "nl": "Gledopto en Tint LED Controllers (ZigBee)"
   },
   "description": {
     "en": "Control your Gledopto LED Controllers (ZigBee) with Homey!",
