@@ -6,12 +6,12 @@
   "category": "lights",
   "brandColor": "#ff66cc",
   "name": {
-    "en": "Gledopto and Tint LED Controllers (ZigBee)",
-    "nl": "Gledopto en Tint LED Controllers (ZigBee)"
+    "en": "Gledopto and Tint lights and LED Controllers (ZigBee)",
+    "nl": "Gledopto en Tint lampen en LED Controllers (ZigBee)"
   },
   "description": {
-    "en": "Control your Gledopto LED Controllers (ZigBee) with Homey!",
-    "nl": "Gebruik je Gledopto LED Controllers (ZigBee) met Homey!"
+    "en": "Control your Gledopto and Tint LED Controllers and lights (ZigBee) with Homey!",
+    "nl": "Gebruik je Gledopto en Tint LED Controllers en lampen (ZigBee) met Homey!"
   },
   "author": {
     "name": "Marco Ruiter",

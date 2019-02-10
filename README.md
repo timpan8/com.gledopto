@@ -1,11 +1,12 @@
-# Gledopto RGB Led Strip Controller (ZigBee)  
+# Gledopto & Tint Bulbs and RGB Led Strip Controller (ZigBee)  
     
-Control your Gledopto devices with Homey using ZigBee!   
+Control your Gledopto and Tint devices with Homey using ZigBee!   
    
 ### Changelog   
 
-1.1.0
-Added support for Tint-lights (rebranded devices) except for warm-white settings
+1.1.1  
+Added support for [[Tint-lights](https://www.mueller-licht.de/produktserien/tint/]) (color-bulbs and white-tint bulbs) with E27, E14 and GU10 sockets 
+*sold by Aldi and Action among others*
 
 1.0.2 
 Added support for WW+CW LED Controllers (https://bit.ly/2PB3oA1)
