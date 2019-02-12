@@ -1,6 +1,6 @@
 {
   "id": "com.gledopto",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "sdk": 2,
   "compatibility": ">=1.5.11",
   "category": "lights",
@@ -275,7 +275,7 @@
     },
     "icon": "/assets/icon.svg",
     "zigbee": {
-      "manufacturerName": [ "MLI" ],
+      "manufacturerName": [ "MLI", "GLEDOPTO" ],
       "productId": [ "GLEDOPTO", "GL-C-007" ],
       "deviceId":  [544 , 528 ],
       "profileId": [49246, 260],
