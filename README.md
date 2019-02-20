@@ -4,6 +4,9 @@ Control your Gledopto and Tint devices with Homey using ZigBee!
    
 ### Changelog   
 
+1.1.3  
+fix bug #12 add Geldopto GL-C-008  
+
 1.1.1  
 fix bug #8 add Gledopto GU10  
 
