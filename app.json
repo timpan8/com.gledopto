@@ -98,7 +98,7 @@
     },
     "zigbee": {
       "manufacturerName": [ "GLEDOPTO" ],
-      "productId": [ "GLEDOPTO", "GL-C-008" ],
+      "productId": [ "GLEDOPTO", "RGB" ],
       "deviceId": 256,
       "profileId": 49246,
       "learnmode": {
