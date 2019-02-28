@@ -83,7 +83,7 @@
       "light_temperature",
       "light_mode"
     ],
-    "capabilitiesOptions": { 
+    "capabilitiesOptions": {
       "onoff": {},
 	  "onoff.1": {},
       "dim": {},
@@ -98,8 +98,8 @@
     },
     "zigbee": {
       "manufacturerName": [ "GLEDOPTO" ],
-      "productId": [ "GLEDOPTO", "GL-C-008" ],
-      "deviceId": [528 , 256],
+      "productId": [ "GLEDOPTO", "RGB" ],
+      "deviceId": 256,
       "profileId": 49246,
       "learnmode": {
         "instruction": {
@@ -163,7 +163,7 @@
       "dim",
       "light_temperature"
     ],
-    "capabilitiesOptions": { 
+    "capabilitiesOptions": {
       "onoff": {},
       "dim": {},
       "light_temperature": {}
@@ -261,7 +261,7 @@
       "light_temperature",
       "light_mode"
     ],
-    "capabilitiesOptions": { 
+    "capabilitiesOptions": {
       "onoff": {},
       "dim": {},
 	  "light_hue": {},
@@ -277,8 +277,109 @@
     "zigbee": {
       "manufacturerName": [ "MLI", "GLEDOPTO" ],
       "productId": [ "GLEDOPTO", "GL-C-007" ],
-      "deviceId":  [544 , 528 ],
+      "deviceId":  544,
       "profileId": [49246, 260],
+      "learnmode": {
+        "instruction": {
+          "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+          "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+        }
+      }
+    },
+    "settings": [
+      {
+        "id": "transition_time",
+        "type": "number",
+        "label": {
+          "en": "Transition Time",
+          "nl": "Overgangstijd"
+        },
+        "hint": {
+          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+        },
+        "value": 1,
+        "attr": {
+          "min": 0,
+          "max": 6553
+        }
+      }
+    ]
+  }
+  ,
+  {
+    "id": "gledopto_gl-c-008",
+    "name": {
+      "en": "Gledopto GL-C-008 RGB+CCT",
+      "nl": "Gledopto GL-C-008 RGB+CCT"
+    },
+    "mobile": {
+      "components": [
+        {
+          "id": "icon",
+          "capabilities": [
+            "onoff"
+          ]
+        },
+        {
+          "id": "slider",
+          "capabilities": [
+            "dim"
+          ]
+        },
+        {
+          "id": "color",
+          "capabilities": [
+            "light_hue"
+          ]
+        },
+		{
+          "id": "color",
+          "capabilities": [
+            "light_saturation"
+          ]
+        },
+		{
+          "id": "color",
+          "capabilities": [
+            "light_temperature"
+          ]
+        },
+		{
+          "id": "color",
+          "capabilities": [
+            "light_mode"
+          ]
+        }
+      ]
+    },
+    "class": "light",
+    "capabilities": [
+      "onoff",
+      "dim",
+      "light_hue",
+      "light_saturation",
+      "light_temperature",
+      "light_mode"
+    ],
+    "capabilitiesOptions": {
+      "onoff": {},
+      "dim": {},
+	  "light_hue": {},
+	  "light_saturation": {},
+      "light_temperature": {},
+	  "light_mode": {}
+    },
+    "images": {
+      "large": "/drivers/gledopto_gl-c-008/assets/images/large.jpg",
+      "small": "/drivers/gledopto_gl-c-008/assets/images/small.jpg"
+    },
+    "icon": "/assets/icon.svg",
+    "zigbee": {
+      "manufacturerName": [ "MLI", "GLEDOPTO" ],
+      "productId": [ "GLEDOPTO", "GL-C-008" ],
+      "deviceId":  528,
+      "profileId": 49246,
       "learnmode": {
         "instruction": {
           "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
@@ -362,7 +463,7 @@
       "light_temperature",
       "light_mode"
     ],
-    "capabilitiesOptions": { 
+    "capabilitiesOptions": {
       "onoff": {},
       "dim": {},
 	  "light_hue": {},
@@ -441,7 +542,7 @@
       "dim",
       "light_temperature"
     ],
-    "capabilitiesOptions": { 
+    "capabilitiesOptions": {
       "onoff": {},
       "dim": {},
       "light_temperature": {}
