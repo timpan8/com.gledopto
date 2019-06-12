@@ -3,7 +3,12 @@
 Control your Gledopto and Tint devices with Homey using ZigBee!   
    
 ### Changelog   
-
+    
+1.1.4  
+Added more devices - Thx "matrover" for providing the pulls.  
+GL-B-001Z, GL-B-008Z, GL-S-003Z, GL-S-007Z  
+There are still issues with controlling white, this is waiting for the zigbee rewrite by Athom in HomeyCore OS.   
+    
 1.1.3  
 fix bug #12 add Geldopto GL-C-008  
 
