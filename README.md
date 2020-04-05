@@ -3,7 +3,9 @@
 Control your Gledopto and Tint devices with Homey using ZigBee!   
    
 ### Changelog   
-    
+1.1.5
+Fixt problem to add Gledopto WW+CW (GL-C-006) Controller
+
 1.1.4  
 Added more devices - Thx "matrover" for providing the pulls.  
 GL-B-001Z, GL-B-008Z, GL-S-003Z, GL-S-007Z  
@@ -30,3 +32,18 @@ Added EndPoints so RGB and White can be controlled
 This is work in progress. Users have reported that the basics work.   
 As soon as I'll receive my own, more will be added.
 
+
+How to install:
+1. Download Node.js 12.16.1 LTS  https://nodejs.org/en/
+
+2. Start Cmd and run "npm install -g homey"
+
+3. Then run "homey login" and login to you'r Homey Account
+
+4. Download Repository and save on computer
+
+5. Open repository location in Cmd. Type "cd C:\TempLocation\com.gledopto" in Cmd
+
+6. To install app on homey type "homey app install" in Cmd. To just test the app type "homey app run", (it will be installed when closed)
+
+7. If problem try "npm install homey-meshdriver" and "npm install homey-log"
